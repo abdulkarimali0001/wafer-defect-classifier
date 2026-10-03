@@ -1,0 +1,58 @@
+{
+  "test_maps": 5701,
+  "macro_f1": 0.9912988622185341,
+  "exact_match_accuracy": 0.9850903350289423,
+  "per_class": {
+    "Center": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1950
+    },
+    "Donut": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1800
+    },
+    "Edge_Loc": {
+      "precision": 0.9958592132505176,
+      "recall": 0.9866666666666667,
+      "f1": 0.9912416280267903,
+      "support": 1950
+    },
+    "Edge_Ring": {
+      "precision": 0.9922694643843181,
+      "recall": 0.9983333333333333,
+      "f1": 0.9952921628357796,
+      "support": 1800
+    },
+    "Loc": {
+      "precision": 0.999256229081443,
+      "recall": 0.9951851851851852,
+      "f1": 0.9972165522360363,
+      "support": 2700
+    },
+    "Near_Full": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1": 0.9565217391304348,
+      "support": 22
+    },
+    "Scratch": {
+      "precision": 0.9982307147912244,
+      "recall": 0.9898245614035087,
+      "f1": 0.9940098661028893,
+      "support": 2850
+    },
+    "Random": {
+      "precision": 1.0,
+      "recall": 0.9922480620155039,
+      "f1": 0.9961089494163424,
+      "support": 129
+    }
+  },
+  "epochs": 15,
+  "parameters": 1175272,
+  "device": "cpu"
+}
